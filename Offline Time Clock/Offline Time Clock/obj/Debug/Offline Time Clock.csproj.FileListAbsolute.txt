@@ -1,0 +1,10 @@
+c:\users\travis.kingery\documents\visual studio 2015\Projects\Offline Time Clock\Offline Time Clock\bin\Debug\Offline Time Clock.exe.config
+C:\Users\travis.kingery\Documents\GitHub\OfflineTimeClock\Offline Time Clock\Offline Time Clock\bin\Debug\Offline Time Clock.exe.config
+C:\Users\travis.kingery\Documents\GitHub\OfflineTimeClock\Offline Time Clock\Offline Time Clock\bin\Debug\Offline Time Clock.exe
+C:\Users\travis.kingery\Documents\GitHub\OfflineTimeClock\Offline Time Clock\Offline Time Clock\bin\Debug\Offline Time Clock.pdb
+C:\Users\travis.kingery\Documents\GitHub\OfflineTimeClock\Offline Time Clock\Offline Time Clock\obj\Debug\Offline Time Clock.csprojResolveAssemblyReference.cache
+C:\Users\travis.kingery\Documents\GitHub\OfflineTimeClock\Offline Time Clock\Offline Time Clock\obj\Debug\Offline_Time_Clock.Form1.resources
+C:\Users\travis.kingery\Documents\GitHub\OfflineTimeClock\Offline Time Clock\Offline Time Clock\obj\Debug\Offline_Time_Clock.Properties.Resources.resources
+C:\Users\travis.kingery\Documents\GitHub\OfflineTimeClock\Offline Time Clock\Offline Time Clock\obj\Debug\Offline Time Clock.csproj.GenerateResource.Cache
+C:\Users\travis.kingery\Documents\GitHub\OfflineTimeClock\Offline Time Clock\Offline Time Clock\obj\Debug\Offline Time Clock.exe
+C:\Users\travis.kingery\Documents\GitHub\OfflineTimeClock\Offline Time Clock\Offline Time Clock\obj\Debug\Offline Time Clock.pdb
