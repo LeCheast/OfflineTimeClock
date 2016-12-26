@@ -32,10 +32,10 @@
             this.LblClockOut = new System.Windows.Forms.Label();
             this.TxtClockInHours = new System.Windows.Forms.TextBox();
             this.LblClockInDots = new System.Windows.Forms.Label();
-            this.TxtClockOutMin = new System.Windows.Forms.TextBox();
+            this.TxtClockInMin = new System.Windows.Forms.TextBox();
             this.TxtClockOutHours = new System.Windows.Forms.TextBox();
             this.LblClockOutDots = new System.Windows.Forms.Label();
-            this.TxtClockOutDots = new System.Windows.Forms.TextBox();
+            this.TxtClockOutMin = new System.Windows.Forms.TextBox();
             this.BtnAddTime = new System.Windows.Forms.Button();
             this.BtnTotalTime = new System.Windows.Forms.Button();
             this.TxtTotalTimeMin = new System.Windows.Forms.TextBox();
@@ -83,12 +83,12 @@
             this.LblClockInDots.TabIndex = 3;
             this.LblClockInDots.Text = ":";
             // 
-            // TxtClockOutMin
+            // TxtClockInMin
             // 
-            this.TxtClockOutMin.Location = new System.Drawing.Point(63, 96);
-            this.TxtClockOutMin.Name = "TxtClockOutMin";
-            this.TxtClockOutMin.Size = new System.Drawing.Size(26, 22);
-            this.TxtClockOutMin.TabIndex = 4;
+            this.TxtClockInMin.Location = new System.Drawing.Point(63, 96);
+            this.TxtClockInMin.Name = "TxtClockInMin";
+            this.TxtClockInMin.Size = new System.Drawing.Size(26, 22);
+            this.TxtClockInMin.TabIndex = 4;
             // 
             // TxtClockOutHours
             // 
@@ -107,12 +107,12 @@
             this.LblClockOutDots.TabIndex = 6;
             this.LblClockOutDots.Text = ":";
             // 
-            // TxtClockOutDots
+            // TxtClockOutMin
             // 
-            this.TxtClockOutDots.Location = new System.Drawing.Point(213, 96);
-            this.TxtClockOutDots.Name = "TxtClockOutDots";
-            this.TxtClockOutDots.Size = new System.Drawing.Size(26, 22);
-            this.TxtClockOutDots.TabIndex = 7;
+            this.TxtClockOutMin.Location = new System.Drawing.Point(213, 96);
+            this.TxtClockOutMin.Name = "TxtClockOutMin";
+            this.TxtClockOutMin.Size = new System.Drawing.Size(26, 22);
+            this.TxtClockOutMin.TabIndex = 7;
             // 
             // BtnAddTime
             // 
@@ -123,6 +123,7 @@
             this.BtnAddTime.TabIndex = 8;
             this.BtnAddTime.Text = "Add Time";
             this.BtnAddTime.UseVisualStyleBackColor = true;
+            this.BtnAddTime.Click += new System.EventHandler(this.BtnAddTime_Click);
             // 
             // BtnTotalTime
             // 
@@ -133,6 +134,7 @@
             this.BtnTotalTime.TabIndex = 9;
             this.BtnTotalTime.Text = "Total Time";
             this.BtnTotalTime.UseVisualStyleBackColor = true;
+            this.BtnTotalTime.Click += new System.EventHandler(this.BtnTotalTime_Click);
             // 
             // TxtTotalTimeMin
             // 
@@ -203,10 +205,10 @@
             this.Controls.Add(this.TxtTotalTimeMin);
             this.Controls.Add(this.BtnTotalTime);
             this.Controls.Add(this.BtnAddTime);
-            this.Controls.Add(this.TxtClockOutDots);
+            this.Controls.Add(this.TxtClockOutMin);
             this.Controls.Add(this.LblClockOutDots);
             this.Controls.Add(this.TxtClockOutHours);
-            this.Controls.Add(this.TxtClockOutMin);
+            this.Controls.Add(this.TxtClockInMin);
             this.Controls.Add(this.LblClockInDots);
             this.Controls.Add(this.TxtClockInHours);
             this.Controls.Add(this.LblClockOut);
@@ -228,10 +230,10 @@
         private System.Windows.Forms.Label LblClockOut;
         private System.Windows.Forms.TextBox TxtClockInHours;
         private System.Windows.Forms.Label LblClockInDots;
-        private System.Windows.Forms.TextBox TxtClockOutMin;
+        private System.Windows.Forms.TextBox TxtClockInMin;
         private System.Windows.Forms.TextBox TxtClockOutHours;
         private System.Windows.Forms.Label LblClockOutDots;
-        private System.Windows.Forms.TextBox TxtClockOutDots;
+        private System.Windows.Forms.TextBox TxtClockOutMin;
         private System.Windows.Forms.Button BtnAddTime;
         private System.Windows.Forms.Button BtnTotalTime;
         private System.Windows.Forms.TextBox TxtTotalTimeMin;
